@@ -1,0 +1,26 @@
+#feedback {
+  background: white;
+  border-radius: 32px;
+  bottom: 32px;
+  box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  position: absolute;
+  right: 32px;
+  transition: all 0.5s;
+  width: 64px; }
+  #feedback img {
+    bottom: 48px;
+    position: fixed;
+    right: 48px;
+    transition: all 0.5s; }
+  #feedback:hover {
+    box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f;
+    color: black;
+    height: 320px;
+    padding: 16px;
+    width: 640px; }
+    #feedback:hover img {
+      opacity: 0; }

@@ -1,0 +1,15 @@
+#trash-can-zone {
+  align-items: center;
+  background: white;
+  border-radius: 32px;
+  bottom: 32px;
+  box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  justify-content: center;
+  left: 32px;
+  position: absolute;
+  width: 64px; }
+  #trash-can-zone:hover {
+    box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }

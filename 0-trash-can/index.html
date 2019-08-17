@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="trash-can.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="c1" class="card" draggable="true" ondragstart="drag(event)">
+    <h4>Drag & Drop the example card</h4>
+    <span>The drop-out zone is located at the bottom left corner of your screen ;-)</span>
+</div>
+
+<div id="trash-can-zone" ondragover="allowDrop(event)" ondrop="dropTrash(event)">
+    <img src="trash-can-black.png" alt="trash-can-icon"/>
+</div>
+
+<script src="app.js"></script>
+<script src="trash-can.js"></script>
+</body>
+</html>
