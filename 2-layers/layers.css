@@ -1,0 +1,51 @@
+aside {
+  align-items: center;
+  display: grid;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  height: calc(100% - 64px);
+  justify-content: center;
+  left: 32px;
+  position: absolute;
+  top: 32px;
+  width: 80px; }
+  aside .button {
+    background: white;
+    border-radius: 32px;
+    box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+    height: 64px;
+    width: 64px; }
+    aside .button:hover {
+      box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }
+
+main {
+  display: grid;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto;
+  height: calc(100% - 64px);
+  margin: 32px auto;
+  width: calc(100% - 96px - 96px - 96px); }
+  main .layer {
+    align-items: center;
+    background: white;
+    border: 1px solid;
+    border-radius: 16px;
+    color: #d10a45;
+    display: flex;
+    font-size: 20pt;
+    justify-content: center; }
+  main .layer-1 {
+    border-color: #0066b3; }
+  main .layer-2 {
+    border-color: #db4e7a; }
+  main .layer-3 {
+    border-color: #8ac056; }
+  main .layer-4 {
+    border-color: #d10a45; }
+  main .layer-5 {
+    border-color: #87d0ea; }
+  main .layer-6 {
+    border-color: #56bcb1; }
+  main .layer-7 {
+    border-color: #facb41; }

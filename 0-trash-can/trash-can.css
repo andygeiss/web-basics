@@ -1,3 +1,14 @@
+.card {
+  background: #0066b3;
+  border-radius: 4px;
+  box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+  color: white;
+  margin-top: 16px;
+  padding: 8px;
+  width: 300px; }
+  .card:hover {
+    box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }
+
 #trash-can-zone {
   align-items: center;
   background: white;
