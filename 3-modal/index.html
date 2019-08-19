@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#ffffff"/>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="modal.css"/>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="modal" onclick="showDialog()">
+    <img src="modal-black.png" alt="modal-icon"/>
+</div>
+
+<dialog>
+    <section>
+        <header>
+            <div id="close" onclick="closeDialog()">
+                <img src="close-black.png" alt="close-icon"/>
+            </div>
+        </header>
+        <main>
+            <span>This is an example of a simple Modal by using the HTML5 dialog and custom CSS3 and Javascript.</span>
+        </main>
+    </section>
+</dialog>
+
+<script src="modal.js"></script>
+</body>
+</html>

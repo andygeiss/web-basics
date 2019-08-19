@@ -1,0 +1,70 @@
+#modal {
+  background: white;
+  border-radius: 32px;
+  bottom: 32px;
+  box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+  color: white;
+  cursor: pointer;
+  display: flex;
+  height: 64px;
+  position: absolute;
+  right: 32px;
+  transition: all 0.5s;
+  width: 64px; }
+  #modal img {
+    bottom: 48px;
+    position: fixed;
+    right: 48px;
+    transition: all 0.5s; }
+  #modal:hover {
+    box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }
+
+dialog {
+  background: #7f7f7f;
+  border: none;
+  height: 100%;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+  dialog > section {
+    background: white;
+    border-radius: 2px;
+    box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    margin: 10% auto;
+    padding: 8px;
+    position: relative;
+    width: 400px; }
+    dialog > section > header {
+      align-items: center;
+      display: flex;
+      justify-content: flex-end; }
+      dialog > section > header #close {
+        align-items: center;
+        background: white;
+        border-radius: 32px;
+        box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+        color: white;
+        cursor: pointer;
+        display: flex;
+        height: 64px;
+        justify-content: center;
+        transition: all 0.5s;
+        width: 64px; }
+        dialog > section > header #close img {
+          height: 32px;
+          width: 32px; }
+        dialog > section > header #close:hover {
+          box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }
+    dialog > section > main {
+      align-items: center;
+      display: flex;
+      font-size: 16pt;
+      height: 100%;
+      justify-content: center;
+      padding: 8px; }
