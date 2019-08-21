@@ -72,7 +72,6 @@ dialog {
 		align-items: center;
 		background: $color-white;
 		border-radius: 32px;
-		box-shadow: 0 0 2px $color-gray-1, 0 0 2px $color-gray-0;
 		color: $color-white;
 		cursor: pointer;
 		display: flex;
@@ -86,9 +85,6 @@ dialog {
 		  width: 32px;
 		}
 
-		&:hover {
-		  box-shadow: 0 0 4px $color-gray-1, 0 0 4px $color-gray-0;
-		}
 	  }
 	}
 

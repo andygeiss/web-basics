@@ -48,7 +48,6 @@ dialog {
         align-items: center;
         background: white;
         border-radius: 32px;
-        box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
         color: white;
         cursor: pointer;
         display: flex;
@@ -59,8 +58,6 @@ dialog {
         dialog > section > header #close img {
           height: 32px;
           width: 32px; }
-        dialog > section > header #close:hover {
-          box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }
     dialog > section > main {
       align-items: center;
       display: flex;
