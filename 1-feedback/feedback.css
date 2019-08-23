@@ -2,7 +2,7 @@
   background: white;
   border-radius: 32px;
   bottom: 32px;
-  box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+  box-shadow: 0 0 2px #7f7f7f, 0 0 2px #434343;
   color: white;
   cursor: pointer;
   display: flex;
@@ -17,7 +17,7 @@
     right: 48px;
     transition: all 0.5s; }
   #feedback:hover {
-    box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f;
+    box-shadow: 0 0 4px #7f7f7f, 0 0 4px #434343;
     color: black;
     height: 320px;
     padding: 16px;

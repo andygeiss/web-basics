@@ -12,11 +12,11 @@ aside {
   aside .button {
     background: white;
     border-radius: 32px;
-    box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
+    box-shadow: 0 0 2px #7f7f7f, 0 0 2px #434343;
     height: 64px;
     width: 64px; }
     aside .button:hover {
-      box-shadow: 0 0 4px #e3e3e3, 0 0 4px #7f7f7f; }
+      box-shadow: 0 0 4px #7f7f7f, 0 0 4px #434343; }
 
 main {
   display: grid;
