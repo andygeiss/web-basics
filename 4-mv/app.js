@@ -6,12 +6,12 @@ class Model {
         }
     }
 
-    getName() {
-        return this.data.name;
+    get(attr) {
+        return this.data[attr];
     }
 
-    setName(name) {
-        this.data.name = name;
+    set(attr, value) {
+        this.data[attr] = value;
     }
 }
 
@@ -27,14 +27,15 @@ class View {
         let model = this.model;
         txtInput.addEventListener("keyup", function () {
             let name = document.getElementById("txtInput").value;
-            model.setName(name);
+            model.set("name", name);
             view.render();
         })
     }
 
     render() {
+        let model = this.model;
         let root = document.getElementById("root");
-        root.innerHTML = "Your name is " + this.model.getName();
+        root.innerHTML = "Your name is " + model.get("name");
     }
 }
 
