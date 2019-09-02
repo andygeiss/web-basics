@@ -7,3 +7,4 @@ This repository provides the basic foundation of web design by using plain css, 
 - [Layers](2-layers) creates a bunch of layers by using CSS Grid.
 - [Modal](3-modal) shows a modal dialog by using plain Javascript.
 - [DDD](4-ddd) demonstrates basic Domain-Driven-Design by using Events, Commands, Services and Repositories.
+- [MeshUp](5-meshup) integrates two provider UI's to a single Shopping Cart UI by using Messaging.
