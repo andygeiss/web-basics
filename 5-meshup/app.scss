@@ -13,22 +13,53 @@ body {
   position: absolute;
   width: 100%;
 
-  div {
-	align-items: center;
-	background: $color-gray-2;
-	border-radius: 0.2rem;
-	box-shadow: 0 0 2px $color-gray-2, 0 0 2px $color-gray-1;
-	color: $color-gray-0;
-	display: flex;
-	flex-flow: row;
-	justify-content: flex-start;
-	padding: 1rem;
-
-	#items {
-	  display: flex;
-	  margin: 1rem;
-	  padding: 1rem;
-	}
+  button {
+    border: 1px solid $color-white;
+    border-radius: 8px;
+    color: $color-white;
+    line-height: 3em;
+    margin: 0.5em;
+    outline: none;
   }
 
+  #addCat, .cat {
+    background: $color-0;
+
+    &:hover {
+      background: $color-white;
+      border: 1px solid $color-0;
+      color: $color-0;
+    }
+  }
+
+  #addDog, .dog {
+    background: $color-1;
+
+    &:hover {
+      background: $color-white;
+      border: 1px solid $color-1;
+      color: $color-1;
+    }
+  }
+
+  div {
+    align-items: center;
+    border-radius: 0.2rem;
+    box-shadow: 0 0 2px $color-gray-2, 0 0 2px $color-gray-1;
+    color: $color-gray-0;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding: 1rem;
+
+    #items {
+      display: flex;
+      margin: 1rem;
+      padding: 1rem;
+    }
+  }
+
+  iframe {
+    border: none;
+  }
 }

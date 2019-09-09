@@ -10,9 +10,27 @@ body {
   padding: 0;
   position: absolute;
   width: 100%; }
+  body button {
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    line-height: 3em;
+    margin: 0.5em;
+    outline: none; }
+  body #addCat, body .cat {
+    background: #facb41; }
+    body #addCat:hover, body .cat:hover {
+      background: white;
+      border: 1px solid #facb41;
+      color: #facb41; }
+  body #addDog, body .dog {
+    background: #ff6600; }
+    body #addDog:hover, body .dog:hover {
+      background: white;
+      border: 1px solid #ff6600;
+      color: #ff6600; }
   body div {
     align-items: center;
-    background: #e3e3e3;
     border-radius: 0.2rem;
     box-shadow: 0 0 2px #e3e3e3, 0 0 2px #7f7f7f;
     color: #434343;
@@ -24,3 +42,5 @@ body {
       display: flex;
       margin: 1rem;
       padding: 1rem; }
+  body iframe {
+    border: none; }
